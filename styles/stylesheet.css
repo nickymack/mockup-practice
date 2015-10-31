@@ -16,12 +16,23 @@ secton{float:right;
 nav{clear:both;
   display: inline;
   text-align: center;
-  margin:auto;}
-.header-links {margin-left: 1em;
+  margin:auto;
+  max-height:auto;
+  margin-top: auto;}
+.header-nav {}
+.header-links {
+            line-height: normal; //*finally figured out how to get the text to line up with the height of the nav background, and not have the links be too tall*//
+            position: relative;
+            margin-left: 1em;
             font-size: 1.5em;
             padding-left: 1 em;
             padding-right: 1em;
-            color:purple;}
+            color:purple;
+            background-color:mediumpurple;
+            margin-top: auto;
+            margin-left:auto;
+            display:flex;
+            }
 ul{clear:both;}
 li{display: inline;
   margin:auto;}
