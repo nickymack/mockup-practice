@@ -3,25 +3,69 @@ h1{text-align:center;
   padding-bottom: 1em;
   color:purple;
   font-size: 4rem;}
-aside {float: left; 
-      padding-top: 3rem;
-      width:40%;
+aside {clear:both;
+      float:left;
+      flex-wrap: wrap;
+      padding-top: 1rem;
+      width:20%;
       background-color: lavender;
       //*margin-right: 3rem;
-      margin-left: 2rem;*//}
-secton{float:right;
-      width:60%;
+      margin-left: 2rem;*//
+      display: flex;
+      flex-shrink: 0;
+      height:relative;
+      overflow: hidden;}
+secton{clear:both;
+      float:right;
+      flex-wrap: wrap;
+      width:80%;
       //*padding-left: 2em;
-      margin-left: 2rem;*//}
+      margin-left: 2rem;*//
+      display: block;
+      flex-grow: 1;
+      }
+
+div {background-color: lightgrey;
+    padding-top: 4rem;
+    text-align: center;
+    }
+nav a {display: inline;
+  text-decoration: none;
+  text-align: center;
+  color:purple;}
+section article {margin-top: 2em;
+      height:auto;
+      padding-bottom: 1rem;
+      }
+p {text-align: center;}
+.main-content-section {
+      background-color: lightgrey;
+  height:auto;
+  padding-top: 2em;
+  display: block;
+  text-align: center;}
+  
 nav{clear:both;
   display: inline;
   text-align: center;
-  margin:auto;}
-.header-links {margin-left: 1em;
+  margin:auto;
+  max-height:auto;
+  margin-top: auto;}
+footer {margin-top: 2rem;
+        margin-bottom: 2rem;}
+.header-links {
+            line-height: normal; //*finally figured out how to get the text to line up with the height of the nav background, and not have the links be too tall*//
+            position: relative;
+            margin-left: 1em;
             font-size: 1.5em;
             padding-left: 1 em;
             padding-right: 1em;
-            color:purple;}
+            color:purple;
+            background-color:mediumpurple;
+            margin-top: auto;
+            margin-left:auto;
+            display:flex;
+            }
 ul{clear:both;}
 li{display: inline;
   margin:auto;}
@@ -29,3 +73,32 @@ li{display: inline;
               color:purple;
               text-align: center;
               margin:2em}
+
+.footer-nav {display: inline;}
+.footer-nav li {padding-left: 1em; padding-right: 1em;}
+#stir-fry-image {padding-top: 2em;
+              padding-bottom: 4rem;}
+#mockup-pic {border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;}
+div figure{display:inline;
+            }
+#mockup-pic1 {float: left;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
+#mockup-pic2 {float:center;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
+#mockup-pic3 {float:right;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
