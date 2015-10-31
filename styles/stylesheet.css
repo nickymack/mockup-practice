@@ -1,0 +1,31 @@
+* {box-sizing:border-box;}
+h1{text-align:center;
+  padding-bottom: 1em;
+  color:purple;
+  font-size: 4rem;}
+aside {float: left; 
+      padding-top: 3rem;
+      width:40%;
+      background-color: lavender;
+      //*margin-right: 3rem;
+      margin-left: 2rem;*//}
+secton{float:right;
+      width:60%;
+      //*padding-left: 2em;
+      margin-left: 2rem;*//}
+nav{clear:both;
+  display: inline;
+  text-align: center;
+  margin:auto;}
+.header-links {margin-left: 1em;
+            font-size: 1.5em;
+            padding-left: 1 em;
+            padding-right: 1em;
+            color:purple;}
+ul{clear:both;}
+li{display: inline;
+  margin:auto;}
+.aside-images {font-size: 2em;
+              color:purple;
+              text-align: center;
+              margin:2em}
