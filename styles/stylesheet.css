@@ -25,6 +25,14 @@ secton{clear:both;
       flex-grow: 1;
       }
 
+div {background-color: lightgrey;
+    padding-top: 4rem;
+    text-align: center;
+    }
+nav a {display: inline;
+  text-decoration: none;
+  text-align: center;
+  color:purple;}
 section article {margin-top: 2em;
       height:auto;
       padding-bottom: 1rem;
@@ -70,3 +78,27 @@ li{display: inline;
 .footer-nav li {padding-left: 1em; padding-right: 1em;}
 #stir-fry-image {padding-top: 2em;
               padding-bottom: 4rem;}
+#mockup-pic {border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;}
+div figure{display:inline;
+            }
+#mockup-pic1 {float: left;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
+#mockup-pic2 {float:center;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
+#mockup-pic3 {float:right;
+            border-radius: 10%;
+            opacity: 0.6;
+            height:200px;
+            width:auto;
+            position: relative;}
