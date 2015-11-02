@@ -27,6 +27,8 @@ secton{clear:both;
       display: block;
       flex-grow: 1;
       }
+article {display:inline-block;
+        center;}
 
 div {background-color: lightgrey;
     padding-top: 4rem;
@@ -40,15 +42,46 @@ nav a {display: inline;
 section article {margin-top: 2em;
       height:auto;
       padding-bottom: 1rem;
+      max-width: 600px;
+      border: 1px, gray;
       }
+.third-page-section{
+  background-color: lightgray;
+  text-align: center;
+}
 p {text-align: center;
-  font-family: sans-serif;}
+  font-family: sans-serif;
+  color:#494949}
+
+figcaption {text-align: center;
+    font-family: sans-serif;
+    color:rebeccapurple;}
+.article-figure {max-height: 500px;
+                max-width: 500px;
+                margin-left: 3em;
+                margin-right: 3em;
+                margin-bottom: 1em;
+                margin-top: 3em;
+                }
+#butternut{height:252px;
+          width:auto;}
 .main-content-section {
       background-color: lightgrey;
   height:auto;
   padding-top: 2em;
   display: block;
   text-align: center;}
+
+.third-page-article{
+  background-color:lightgray;
+  display: inline-block;
+  border: 2px solid #F6F6F6;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
   
 nav{clear:both;
   display: inline;
